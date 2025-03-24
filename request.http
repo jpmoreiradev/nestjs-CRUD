@@ -1,0 +1,27 @@
+POST http://localhost:3000/user
+content-type: application/json
+
+{
+    "name": "João Pedro",
+    "email": "jp02120123@gmail.com",
+    "password": "02120"
+}
+
+###
+PATCH  http://localhost:3000/user/1
+content-type: application/json
+
+{
+    "name": "João Pedro Moreira",
+    "email": "jp02120123@gmail.com"
+}
+
+
+###
+GET http://localhost:3000/user
+
+###
+GET http://localhost:3000/user/1
+
+###
+DELETE http://localhost:3000/user/2

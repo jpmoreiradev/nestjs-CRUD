@@ -4,8 +4,8 @@ import { DbModule } from 'src/db/db.module';
 import { UserRepository } from './user.repository';
 
 @Module({
-    imports:[DbModule],
+  imports: [DbModule],
   controllers: [UserController],
-  providers: [UserRepository]
+  providers: [UserRepository],
 })
 export class UserModule {}
